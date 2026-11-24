@@ -71,3 +71,7 @@ For low-friction experimentation and possible data-locality benefits, while acce
 
 **Q: What is a model parameter?**  
 A learned numerical weight (or other learned model value), distinct from the number of tokens a model can accept.
+
+## Additional model experiments — 2026-11-24
+
+Learner reports trying Phi-3 and GPT-OSS in addition to Gemma 3 270M. Exact tags, download sizes, outputs and performance are not yet confirmed. Learner described GPT-OSS as 20 GB; if the tag is `gpt-oss:20b`, 20B denotes parameter count rather than storage size. Use `ollama list` to verify tags and sizes and `ollama ps` to inspect loaded models. Next: compare identical prompts, correctness and latency across all three models.
