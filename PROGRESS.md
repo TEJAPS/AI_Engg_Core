@@ -24,3 +24,5 @@
 ## Session update format
 
 Send the lecture title, what you learned, any code/errors, and any questions. ChatGPT will help polish the notes and update the progress log. A lecture is only marked completed after you confirm it.
+
+- 2026-11-24: Also tried Phi-3 and GPT-OSS locally; exact tags and comparison results pending.
